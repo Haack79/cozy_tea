@@ -1,0 +1,47 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center; 
+}
+header {
+    height: 69px; 
+    border-bottom: 1px solid seashell; 
+    position: fixed; 
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    z-index: 1; 
+}
+#container {
+    display: flex;
+
+}
+nav {
+    text-align: right;
+    flex-grow: 1
+}
+span {
+    text-decoration: underline;
+    display: inline-block;
+    padding: 20px 10px;
+}
+a {
+    color: seashell; 
+}
+#mission {
+    background-image: url('/Users/haack79/Projects/Codecademy_Projects/TeaCozy/resources/media/img-mission-background.jpg');
+    height: 700px;
+    width: 1200px; 
+}
+header img {
+    height: 50px;
+    padding-left: 10px; 
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
