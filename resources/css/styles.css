@@ -67,10 +67,30 @@ header img {
 #teas {
     padding-top: 65px;
     width: 1000px;
-    height: 850px;
+    height: 715px;
     margin: auto;
 }
 #teas h2, h4 {
     padding: 10px; 
     margin: 0px;
+}
+#locations {
+    background-image: url('/Users/haack79/Projects/Codecademy_Projects/TeaCozy/resources/media/img-locations-background.jpg');
+    height: 500px;
+}
+.locale {
+    background-color: black;
+    width: 300px; 
+    margin: 15px 20px;
+    opacity: 1;
+}
+#locationBoxes {
+    margin-top: 15px;
+    width: 1200px;
+}
+#contactInfo {
+    height: 200px;
+}
+footer {
+    text-align: left;
 }
